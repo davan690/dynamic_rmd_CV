@@ -2,6 +2,8 @@
 
 This is the first draft of my CV using `jekyll`, `github` and `markdown` mainly. I have began with a `jekyll` template and then fitted with `.Rmd` templates and analysis.
 
+![image-20200911072219773](C:\Code\dynamic_rmd_CV\content\images\image-20200911072219773.png)
+
 The first addition I have made to this is a word templated output is well. This is good for many jobs and when drafts need editing word is still the easiest pipeline for comments in many work environments.
 
 # Make your website with R Markdown in minutes
