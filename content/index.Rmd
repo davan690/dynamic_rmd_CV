@@ -1,8 +1,8 @@
 ---
-title: ""
+title: "Landing page demo...."
 # title: "Graduate CV"
-# author: "Anthony Davidson"
-# date: "`r Sys.Date()`"
+author: "Anthony Davidson"
+date: "`r Sys.Date()`"
 # subtitle: "I am interested in the modelling of deterministic and stochastic processes with a focus on ecological systems. I put a open-science spin on my work where computational reproducibility comes first."
 # before_body: header.html
 # after_body: footer.html

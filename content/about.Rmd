@@ -1,5 +1,8 @@
 ---
 title: "Why a dynamic CV?"
+include:
+  before_body: header.html
+  after_body: footer.html
 ---
 
 Appying for jobs in a post-Covid world could be very different but one key aspect is to be able to communicate the skills needed to be employable. Here is a invovative way of including interactive rmarkdown files into my graduate CV to demostrate the skills I have throughout the scientific process through my training and previous experinence.
