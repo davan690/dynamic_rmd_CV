@@ -1,0 +1,13 @@
+---
+title: "Why a dynamic CV?"
+---
+
+Appying for jobs in a post-Covid world could be very different but one key aspect is to be able to communicate the skills needed to be employable. Here is a invovative way of including interactive rmarkdown files into my graduate CV to demostrate the skills I have throughout the scientific process through my training and previous experinence.
+
+## Rmarkdown
+
+Over the duration of my PhD I have developed a collection of scientific computing skills that lie within the scope of computational reproducibility. Coincidently, these tools are the same basic functionality to website development. 
+
+For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+
+Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.

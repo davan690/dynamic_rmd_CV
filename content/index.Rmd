@@ -1,0 +1,57 @@
+---
+title: ""
+# title: "Graduate CV"
+# author: "Anthony Davidson"
+# date: "`r Sys.Date()`"
+# subtitle: "I am interested in the modelling of deterministic and stochastic processes with a focus on ecological systems. I put a open-science spin on my work where computational reproducibility comes first."
+# before_body: header.html
+# after_body: footer.html
+#   template: "indexTemplate.html"
+#	highlight: tango
+#	fig_caption: yes
+#	toc: yes
+#	toc_float: true
+#	code_folding: hide
+#	df_print: paged
+#	number_sections: false
+---
+
+```{r echo = F, include = T}
+htmltools::htmlTemplate("indexTemplate.html")
+```
+
+<!-- # Geo-spatial apps {.tabset} -->
+
+```{r echo=F, message=FALSE, warning=FALSE}
+# knitr::opts_knit$set(base.dir = normalizePath(tempdir(), winslash = '/'))
+# knitr::opts_chunk$set(fig.path = "figure/")
+library(knitr)
+library(htmltools)
+# htmltools::includeHTML("./indexTemplate.html")
+knitr::opts_chunk$set(echo = F,
+                      message=FALSE,
+                      warning=FALSE)
+#darta
+shiny1 <- knitr::include_app(c("https://ssnhub.shinyapps.io/predator_prey_simulation1/"))
+shiny2 <- knitr::include_app(c("https://ssnhub.shinyapps.io/ShinyReportPlanner/"))
+
+```
+
+<!-- ### Current shiny apps -->
+
+
+<!-- | `r #shiny1`                                                   | `r #shiny2`                                            | -->
+<!-- | ------------------------------------------------------------ | ----------------------------------------------------- | -->
+<!-- | A simple population simulation to understand demographic proceses that can impact population abundance in the future. | A new app to help link plannng with graduate research | -->
+
+<!-- Mapping widget -->
+
+```{r eval = F, echo = F}
+knitr::include_app('https://yihui.shinyapps.io/miniUI/', height = '1200px')
+```
+
+<!-- # CV {.tabset} -->
+
+<!-- ```{r child = "fullCV.Rmd", echo = F, results= 'asis', eval= F} -->
+
+<!-- ``` -->

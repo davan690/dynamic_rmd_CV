@@ -1,0 +1,18 @@
+name: "My dynamic CV for graduate projects"
+navbar:
+  title: "Anthony Davidson"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "More info"
+      href: about.html                              # CHANGE HERE 
+output_dir: "docs"                           # CHANGE HERE 
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+  #    include:
+   #      before_body: header.html
+   #      after_body: footer.html
+         #template: indexTemplate.html
+     # css: styles.css
